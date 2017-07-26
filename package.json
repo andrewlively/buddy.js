@@ -12,6 +12,7 @@
     "cli",
     "tool"
   ],
+  "main": "index.js",
   "author": "Daniel St. Jules <danielst.jules@gmail.com>",
   "licenses": [
     "MIT"
@@ -39,5 +40,6 @@
   },
   "scripts": {
     "test": "mocha -R spec spec/unit spec/integration"
-  }
+  },
+  "engines" : { "node" : ">6.0.0" }
 }
